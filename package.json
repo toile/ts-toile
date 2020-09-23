@@ -1,0 +1,45 @@
+{
+  "name": "ts-toile",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/ts-toile.common.js",
+  "module": "dist/ts-toile.esm.js",
+  "types": "types/main.d.ts",
+  "unpkg": "dist/ts-toile.global.js",
+  "jsdelivr": "dist/ts-toile.global.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:type": "tsc -p ./tsconfig.type.json",
+    "release": "standard-version",
+    "test": "jest --no-cache"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "toile"
+  ],
+  "bugs": {
+    "email": "upcwangying@gmail.com",
+    "url": "https://github.com/toile/toile/issues/new"
+  },
+  "author": {
+    "name": "Ying Wang",
+    "url": "https://github.com/toile/toile",
+    "email": "upcwangying@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "24.0.19",
+    "jest": "24.9.0",
+    "rollup": "2.27.1",
+    "rollup-plugin-sourcemaps": "0.6.2",
+    "@rollup/plugin-typescript": "5.0.2",
+    "rollup-plugin-typescript": "1.0.1",
+    "ts-jest": "24.1.0",
+    "tslib": "2.0.1",
+    "typescript": "3.6.4",
+    "standard-version": "9.0.0"
+  }
+}
