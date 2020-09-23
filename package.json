@@ -29,6 +29,10 @@
     "url": "https://github.com/toile/toile",
     "email": "upcwangying@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toile/ts-toile"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "24.0.19",
